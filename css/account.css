@@ -1,0 +1,140 @@
+/********************************/
+/*Account setting css code Start*/
+/********************************/
+.account-setting-menu{
+    background: #FFB315;
+    padding: 18px;
+    margin-top: 40px;
+}
+.account-setting-menu ul{
+ padding: 0px;
+ margin-bottom: 0px;
+}
+.account-setting-menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+.account-setting-menu ul li a{
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.edit-user-right{
+    padding: 40px 65px;
+}
+.user-profile-img-section{
+
+}
+.user-profile-img{
+    width: 100px;
+    height: 100px;
+    background: #08c;
+    border-radius: 50%;
+}
+.user-edit{
+
+}
+.user-edit ul{
+
+}
+.user-edit .fa-user{
+    margin-right: 12px;
+}
+.user-edit .fa-home{
+    margin-right: 12px;
+}
+.user-edit .fa-phone-square{
+    margin-right: 12px;
+}
+.user-edit ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.user-edit ul li a{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+.user-edit ul li a i{
+    padding: 0px 15px;
+    color: #5b5a5a;
+}
+.user-profile-img-btn{
+
+}
+.chose-image{
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.user-profile-img-btn p{
+    margin-bottom: 0px;
+        padding-top: 25px;
+
+}
+.user-profile-img-btn h6{
+    color: red;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.update-image{
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #08c;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background: #08c;
+}
+/********************************/
+/*Account setting css code end*/
+/********************************/
+/************************************/
+/*Billing details section code start*/
+/************************************/
+.billing-details-right{
+    padding: 18px 63px;
+}
+.admin-log12 {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.admin-log12 label {
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.admin-log12 input {
+    width: 60%;
+    border: 1px solid #FFB315;
+    border-radius: 14px;
+    padding: 4px 13px;
+}
+.admin-log12 span{
+    color: red;
+}
+.bill-btn{
+    text-align: right;
+}
+.bill-btn button{
+    background: #FFB315;
+    border: 1px solid #FFB315;
+    color: #fff;
+    padding: 3px 23px;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: 0.5s;
+    font-weight: 400;
+}
+.bill-btn button:hover{
+    background: transparent;
+    border: 1px solid #FFB315;
+    color: #FFB315;
+    transition: 0.5s;
+}
+/************************************/
+/*Billing details section code end*/
+/************************************/

@@ -1,0 +1,44 @@
+.food-inner{
+    
+}
+.food-inner h1{
+    font-size: 25px;
+    text-align: center;
+    color: #740D0D;
+    margin-bottom: 0px;
+    padding: 30px 0px;
+    border-bottom: 1px solid;
+    font-weight: 600;
+}
+.food-inner p{
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.food-inner strong{
+    color: #740D0D;
+    font-size: 18px;
+}
+.form-control1234 {
+    border: 1px solid #FFEECB;
+    background: #740D0D;
+    color: #fff;
+    margin-left: 11px;
+    border-radius: 4px;
+}
+.form-check-input{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.form-check-label{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+}
+.form-check{
+    padding: 8px 0px;
+}
+.content-daily{
+    width: 100%;
+    padding-bottom: 40px;
+}

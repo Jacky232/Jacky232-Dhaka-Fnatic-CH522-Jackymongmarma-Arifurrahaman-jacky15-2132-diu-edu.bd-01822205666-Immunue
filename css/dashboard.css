@@ -1,0 +1,122 @@
+.nav-item .nav-link i{
+    margin-right: 12px;
+    font-size: 25px;
+}
+.fa-facebook-messenger{
+    color: green;
+}
+.nav-link strong{
+    font-size: 16px;
+    color: #000;
+}
+
+.piechart {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #0B6214 70deg, 
+        #B10A0A 0 235deg, 
+        #A0E557 0);
+}
+.select-div .form-select{
+    width: 100%;
+    padding: 5px 100px;
+    border: 1px solid #FFEECB;
+    /* display: inline-grid; */
+    font-size: 16px;
+    font-weight: 500;
+    background: #740D0D;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.select-div1 .form-select{
+    padding: 5px 100px;
+    border: 1px solid #FFEECB;
+    /* display: inline-grid; */
+    font-size: 16px;
+    font-weight: 500;
+    background: #740D0D;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.select-div{
+    width: 100%;
+    text-align: center;
+}
+.select-div1{
+    width: 100%;
+    text-align: center;
+}
+.graph-contant{
+    margin-top: 40px;
+}
+.graph-contant p{
+
+}
+.graph-contant p .cir{
+    color: green;
+    font-size: 20px;
+    margin-right: 2px;
+}
+.graph-contant p .cir2{
+    color: #B10A0A;
+    font-size: 20px;
+    margin-right: 2px;
+}
+.graph-contant p .cir3{
+    color: #A0E557;
+    font-size: 20px;
+    margin-right: 2px;
+}
+.small-box h5{
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.small-box-img img{
+    width: 100%;
+}
+.calender-row{
+    margin-top: 50px;
+}
+.compare-heading h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.need{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pad{
+    border-right: 1.5px solid gray;
+}
+.need h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #740D0D;
+    margin-top: 42px;
+}
+.compare{
+    padding: 25px 0px 25px 0px;
+}
+.nutration{
+    text-align: center;
+    width: 227px;
+    padding: 40px;
+    height: 227px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.video img{
+    width: 100%;
+}
+.video{
+    margin-bottom: 20px;
+}

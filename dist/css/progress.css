@@ -1,0 +1,239 @@
+#chart {
+    width: 650px;
+    height: 300px;
+    margin: 30px auto 0;
+    display: block;
+  }
+  #chart #numbers {
+    width: 50px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+  }
+  #chart #numbers li {
+    text-align: right;
+    padding-right: 1em;
+    list-style: none;
+    height: 29px;
+    border-bottom: 1px solid #444;
+    position: relative;
+    bottom: 30px;
+  }
+  #chart #numbers li:last-child {
+    height: 30px;
+  }
+  #chart #numbers li span {
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  #chart #bars {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 0 1px #444;
+  }
+  #chart #bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  #chart #bars li .bar {
+    display: block;
+    width: 70px;
+    margin-left: 15px;
+    background: #11A656;
+    position: absolute;
+    bottom: 0;
+  }
+  #chart #bars li .bar:hover {
+    background: #5AE;
+    cursor: pointer;
+  }
+  #chart #bars li .bar:hover:before {
+    color: white;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+  }
+  #chart #bars li span {
+    color: #000;
+    width: 100%;
+    position: absolute;
+    bottom: -2em;
+    left: 0;
+    text-align: center;
+  }
+  /* code by webdevtrick ( https://webdevtrick.com ) */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+  }
+  #chart {
+    width: 650px;
+    height: 300px;
+    margin: 30px auto 0;
+    display: block;
+  }
+  #chart #numbers {
+    width: 50px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+  }
+  #chart #numbers li {
+    text-align: right;
+    padding-right: 1em;
+    list-style: none;
+    height: 29px;
+    border-bottom: 1px solid #444;
+    position: relative;
+    bottom: 30px;
+  }
+  #chart #numbers li:last-child {
+    height: 30px;
+  }
+  #chart #numbers li span {
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
+  #chart #bars {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 0 1px #444;
+  }
+  #chart #bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+  }
+  #chart #bars li .bar {
+    display: block;
+    width: 70px;
+    margin-left: 15px;
+    background: #11A656;
+    position: absolute;
+    bottom: 0;
+  }
+  #chart #bars li .bar:hover {
+    background: #740D0D;
+    cursor: pointer;
+  }
+  #chart #bars li .bar:hover:before {
+    color: white;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+  }
+  #chart #bars li span {
+    color: #000;
+    width: 100%;
+    position: absolute;
+    bottom: -2em;
+    left: 0;
+    text-align: center;
+  }
+  .chart-heading-progress h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .chart-heading-progress2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 70px 0px 20px 0px;
+  }
+  .input-list{
+    text-align: center;
+  }
+  .input-list h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .input-list p{
+    font-size: 15px;
+    color: #740D0D;
+  }
+  .input-content-inner{
+    text-align: right;
+    padding: 10px 0px;
+  }
+  .input-content-inner p{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .input-content-inner1 p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px 0px;
+    display: contents;
+    color: #740D0D;
+  }
+  .input-content-inner1 h6{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .form-control123{
+    border: 1px solid #FFEECB;
+    background: #740D0D;
+    color: #fff;
+}
+.input-content-inner1 h6{
+  display: inline-block;
+}
+.input-content-inner1{
+  padding: 13px 0px;
+}
+.input-content-button{
+  text-align: center;
+  margin-top: 36px;
+}
+.input-content-button button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2px 35px;
+  background: #740D0D;
+  border: 1px solid #740D0D;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.6s;
+}
+.input-content-button button:hover {
+  background: transparent;
+  border: 1px solid #740D0D;
+  color: #740D0D;
+  transition: 0.6s;
+}
+.chart-heading-progress2 p {
+  font-size: 15px;
+  color: #740D0D;
+  text-align: center;
+}
